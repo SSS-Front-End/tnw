@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.text-limit {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 18px;
+    /* text-align: center; */
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+
+nav .container { 
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    color: #3A3838;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    transition: .5s;
+    line-height: 35px;
+}
+
+.title:hover {
+    color: #EF4423;
+}
+
+.container .logo {
+    line-height: 0px;
+}
+
+header .container {
+    width: 100%;
+}
+
+
+.main {
+    margin-top: 36px;
+}
+
+.main .cards {
+    width: 100%;
+    display: flex;
+    color: #EBEBEB;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card1 {
+    background: #B71C1C;
+}
+
+.card2 {
+    background: #6A1B9A;
+}
+
+.card3 {
+    background: #303F9F;
+}
+
+.card4 {
+    background: #00695C;
+}
+
+.cards p {
+    font-size: 16px;
+    padding: 0 15px 15px 15px;
+}
+
+.cards h3 {
+    padding: 8px 15px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 175px;
+    height: 100%
+}
+
+.new h2 {
+    padding: 40px 0;
+    text-align: center;
+    color: #3A3838;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.new .flexx {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.new .news {
+    padding-left: 30px;
+}
+
+.news img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.news h3 {
+    padding: 20px 0 30px 0;
+    font-weight: 700;
+    font-size: 22px;
+    color: #3A3838;
+}
+
+.desc {
+    color: #686868;
+    font-size: 18px;
+}
+
+footer {
+    background: #3A3838;
+}
+
+footer .title {
+    color: #fff;
+}
+
+footer .logo {
+    margin-top: 27px;
+    margin-bottom: 29px;
+}
+
+footer .container {
+    padding: 0;
+}
+
+footer h2 {
+    font-size: 18px;
+    /* text-align: center; */
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    color: #fff;
+}
